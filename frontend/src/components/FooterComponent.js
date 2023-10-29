@@ -1,5 +1,18 @@
+import { Container, Row, Col } from "react-bootstrap";
+
+
 const FooterComponent = () => {
-    return <p>This is a Footer</p>
+    return (
+        <footer>
+            <Container fluid>
+                <Row className="mt-5">
+                    <Col className="bg-dark text-white text-center py-5">
+                        Copyright &copy; Rugz By Q - Created by Momentum Web Design, LLC
+                    </Col>
+                </Row>
+            </Container>
+        </footer>
+    )
 
 }
 
