@@ -7,7 +7,7 @@ const CategoryCardComponent = ({category, idx}) => {
         "images/categories/Cars.png",
         "images/categories/Kids.png",
         "images/categories/Sports.png",
-        "images/categories/Superheros.webp",
+        "images/categories/Superheros.png",
         "images/categories/TV_Shows.png",
         "images/categories/Video_Games.png"
     ];

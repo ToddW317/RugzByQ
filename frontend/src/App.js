@@ -19,6 +19,7 @@ import UserChatComponent from "./components/user/UserChatComponent";
 import ProtectedRoutesComponent from "./components/ProtectedRoutesComponent";
 import HeaderComponent from "./components/HeaderComponent";
 import FooterComponent from "./components/FooterComponent";
+import ScrollToTop from "./utils/ScrollToTop";
 
 // User Components
 import RoutesWithUserChatComponent from "./components/user/RoutesWithUserChatComponent";
@@ -37,6 +38,7 @@ import AdminUsersPage from "./pages/admin/AdminUsersPage";
 function App() {
   return (
     <BrowserRouter>
+    <ScrollToTop />
     <HeaderComponent />
     <Routes>
       <Route element={<RoutesWithUserChatComponent />}>
